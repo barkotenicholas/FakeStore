@@ -1,0 +1,22 @@
+.sideitems {
+  background-color: #80489c;
+  min-width: 300px;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+.sideitem {
+  background-color: #fce2db;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.sidebarHidden {
+  display: none;
+  transition: all 0.9s ease-out;
+
+}

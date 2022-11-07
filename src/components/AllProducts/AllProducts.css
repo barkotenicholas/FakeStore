@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.AllHeader {
+  height: 50px;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.limit {
+  margin: 5px;
+  background-color: #80489c;
+  color: #fce2db;
+  border: 1px solid #ff8fb1;
+  border-radius: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 250px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+  color: #80489c;
+  font-family: "Poor Story";
+}
+p {
+  color: #80489c;
+}
+.cardImage {
+  width: 100%;
+  height: 200px;
+}
+
+.price {
+  color: #fce2db;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #fce2db;
+  background-color: #ff8fb1;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
